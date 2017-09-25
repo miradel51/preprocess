@@ -1,6 +1,11 @@
+#!usr/bin/python
+#-*-coding:utf-8-*-
+#auhor : mld
+#email : miradel51@126.com
+#date : 2017/02/21
+#time : 20:43
+
 import sys
-import string
-import os
 
 if __name__ == '__main__':
 	in_filename=sys.argv[1]
