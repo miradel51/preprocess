@@ -9,7 +9,6 @@ if __name__ == '__main__':
 	f_original=open(in_filename,'r')
 	f_lowercase=open(out_file_name,'w')
 
-	#pdb.set_trace()
 	contexts=""
 	lowercase=""
 	#first_prob=""
