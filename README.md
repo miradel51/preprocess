@@ -6,7 +6,7 @@ python convert_low.py input_file output_file
 
 for instance, there is an english corpus called "training.en" need to be converted into lowercase via this script, input following command:
 
-python convert_low,py ./training.en ./training.low.en
+python convert_low.py ./training.en ./training.low.en
 
 # Remove_sgm
 This simple script helps you remove the &lt;sgm> format from your original parallel corpus.
