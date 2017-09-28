@@ -36,7 +36,7 @@ For example, if there is a file ("training.5l.zh") which included just 5 lines o
 
 python thulac_seg.py ./training.5l.zh ./training.5l.zh.seg
 
-# Tokenizer && detokenizer
+# Tokenizer && Detokenizer
 As we  all know, we are required to tokenize our training corpus that should be separated characters from words.
 Detokenizer is a script that restore the tokenized corpus. For instance, there is a small file("training.5l.en")  which included jsut 5 lines of english sentences. This file would be tokenized by tokenizer.py and we also restore it in afew minutes(if the corpus not so huge) by calling this detokenize.py script.
 
