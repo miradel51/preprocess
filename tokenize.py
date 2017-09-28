@@ -12,9 +12,6 @@ import re
 
 def tokenizestr(original_str):
 	after_tok = ""
-	#in order to encoding type, I only do like this and only use replace some special tokens without re.sub
-	#sym = "[$%#@~&*;].,!^(){><\?}-:=-+"
-	#original_str = re.sub(sym," "+sym,original_str)
 
 	original_str = original_str.replace("[", " [")
 	original_str = original_str.replace('!', " !")
