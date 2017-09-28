@@ -33,7 +33,7 @@ if __name__ == '__main__':
 	begin_pos = 0
 	end_pos = 0
 
-	senline = 0 # ino erder to  validate whether discard any line or not
+	senline = 0 # in order to validate whether discard any line or not
 
 	ori_corpus = sys.argv[1]
 	rmv_sgm = sys.argv[2]
