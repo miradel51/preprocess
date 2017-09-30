@@ -4,7 +4,7 @@ This simple script helps you to convert your each of sentence in the corpus into
 # Usage
 python convert_low.py input_file output_file
 
-for instance, there is an english corpus called "training.en" need to be converted into lowercase via this script, input following command:
+For instance, there is an english corpus called "training.en" need to be converted into lowercase via this script, input following command:
 
 python convert_low.py ./training.en ./training.low.en
 
@@ -47,6 +47,13 @@ Note: It might not be efficient for special symbols or characters.
 python tokenize.py ./training.5l.en ./training.5l.en.tok
 
 python detokenize.py  ./training.5l.en.tok ./training.5l.en.de_tok
+
+# Chinese sentence normalization
+There is a simple python code it helps you to convert all the chinese characters which were written in full-width into half-width.
+Likewise, if there were some non-chinese words or characters it can also conver these words into lowercase efficiently.
+
+# Usage
+python chinese_norm.py inputfile outputfile
 
 
 
