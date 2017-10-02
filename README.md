@@ -55,5 +55,10 @@ Likewise, if there were some non-chinese words or characters it can also conver 
 # Usage
 python chinese_norm.py inputfile outputfile
 
+# Generate aligned text
+If you need to use UNK replacement feature, you are required to build dictionary by providing alignment file. Therefore, you also need to generate aligned text if you want to use [fast-align](https://github.com/clab/fast_align) open source toolkit.
+
+# Usage
+python gen_align_text.py source_file target_file output_file
 
 
