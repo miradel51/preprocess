@@ -20,7 +20,7 @@ def tokenizestr(original_str):
 	original_str = original_str.replace("#", " # ")
 	original_str = original_str.replace("@", " @ ")
 	original_str = original_str.replace("~", " ~ ")
-	original_str = original_str.replace("&", " &")
+	original_str = original_str.replace("&", " & ")
 	original_str = original_str.replace("*", " * ")
 	original_str = original_str.replace("\"", " \" ")
 	original_str = original_str.replace(".", " .")
