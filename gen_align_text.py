@@ -59,5 +59,5 @@ src_file.close()
 trg_file.close()
 combined_file.close()
 
-print "The process was done in : \t %0.4f s"%(t.finish())
+print "The process was done in : %0.4f s"%(t.finish())
 
