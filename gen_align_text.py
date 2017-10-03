@@ -50,7 +50,7 @@ if __name__ == '__main__':
 
 		scr_con = eachline.strip()
 		trg_con = trg_file.readline().strip()
-		combination = src_con + separator + trg_con # it is the format that fast-align needed
+		combination = scr_con + separator + trg_con # it is the format that fast-align needed
 
 		combined_file.write(combination.strip())
 		combined_file.write("\n")
