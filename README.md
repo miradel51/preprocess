@@ -23,7 +23,7 @@ For instance, there are a pairs of parallel corpora called "newstest2017-deen-sr
 python remove_sgm.py newstest2017-deen-ref.en.sgm newstest2017-deen-ref.en.no.sgm
 
 # THULAC_seg
-It is quite simple but efficient chinese word segmenter and it can be used in the preprocessing step in some NLP tasks if you need to chinese word segmentation. In this script we call the functions of the model was which provided by [THUNLP Group](http://nlp.csai.tsinghua.edu.cn/site2/index.php?lang=en), more precisely it was totally followed by [THULAC](https://github.com/thunlp/THULAC) open source project.
+It is quite simple but efficient chinese word segmenter and it can be used in the preprocessing step in some NLP tasks if you need to chinese word segmentation. In this script we call the functions of the model which was provided by [THUNLP Group](http://nlp.csai.tsinghua.edu.cn/site2/index.php?lang=en), more precisely it was totally followed by [THULAC](https://github.com/thunlp/THULAC) open source project.
 
 # Usage
 Firslty，you have to install the [thulac](https://github.com/thunlp/THULAC) model, afterthat you are able to call the functions which can segment chinese sentence by line or by document via slightly change the code.
