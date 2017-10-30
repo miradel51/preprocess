@@ -26,9 +26,9 @@ python remove_sgm.py newstest2017-deen-ref.en.sgm newstest2017-deen-ref.en.no.sg
 It is quite simple but efficient chinese word segmenter and it can be used in the preprocessing step in some NLP tasks if you need to chinese word segmentation. In this script we call the functions of the model which was provided by [THUNLP Group](http://nlp.csai.tsinghua.edu.cn/site2/index.php?lang=en), more precisely it was totally followed by [THULAC](https://github.com/thunlp/THULAC) open source project.
 
 # Usage
-Firslty，you have to install the [thulac](https://github.com/thunlp/THULAC) model, afterthat you are able to call the functions which can segment chinese sentence by line or by document via slightly change the code.
+Firslty，you have to install the [thulac](https://github.com/thunlp/THULAC) model, afterthat you will be able to call the functions which can segment chinese sentence by line or by document via slightly change the code.
 
-Secondly, according to your current demand, you can also change the original code slightly that coule be used in chinese segmentation sentence by sentence or line by line. If you use it with default style, it might be work with document level, as well as you will be able to segment chinse words by a whole document directly instead of line by line then save it.
+Secondly, according to your current demand, you can also change the original code that could be used in chinese segmentation. If you use it with default style, it might be work with document level, as well as you will be able to segment chinse words by a whole document directly instead of line by line then save it.
 
 Thirdly, it will be work shown as bellow:
 
